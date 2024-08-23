@@ -43,7 +43,7 @@
           <p>Blogs</p>
           <p>Contact Us</p>
         </div>
-        <div class="flex gap-8 p-5">
+        <div class="lg:flex lg:gap-8 lg:p-5 hidden">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,6 +91,22 @@
               </svg>
             </div>
           </div>
+          <div class="lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </div>
         </div>
       </div>
 
@@ -124,7 +140,9 @@
                 light.
               </p>
               <br />
-              <button class="font-bold">View Details</button>
+              <button class="font-bold bg-[#ABEF5F] p-4 px-10 rounded-full">
+                View Details
+              </button>
             </div>
           </div>
         </div>
@@ -132,5 +150,64 @@
 
       <!-- end section  -->
     </main>
+    <!-- two section start -->
+    <section>
+      <main class="max-w-screen-xl mx-auto p-20">
+        <div class="lg:flex gap-20">
+          <div>
+            <!-- contain section  -->
+            <div>
+              <h1 class="text-5xl font-bold">
+                We design thoughtful, liveable spaces
+              </h1>
+              <br />
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+              <br />
+            </div>
+            <!-- comarsial  -->
+            <div
+              class="p-10 mx-auto shadow-xl rounded-lg flex gap-10 items-center"
+            >
+              <div>
+                <img src="./images/commercial.png" alt="" />
+              </div>
+              <div>
+                <h1 class="text-xl font-bold">Commercial</h1>
+                <p>
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+            <br />
+            <!-- residansial  -->
+            <div
+              class="p-10 mx-auto shadow-xl rounded-lg flex gap-10 items-center"
+            >
+              <div>
+                <img src="images/residential.png" alt="" />
+              </div>
+              <div>
+                <h1 class="text-xl font-bold">Residential</h1>
+                <p>
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- img section  -->
+
+          <div>
+            <img class="rounded-2xl" src="images/Rectangle.png" alt="" />
+          </div>
+        </div>
+      </main>
+    </section>
   </body>
 </html>
